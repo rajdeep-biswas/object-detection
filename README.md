@@ -21,3 +21,5 @@ Use `docker buildx build --platform=linux/amd64 -t yolo-app .` to build an image
 Use `docker run -p 8501:8501 yolo-app` to run the container locally.
 
 Use URL `https://localhost:8501` to try out the application on a browser.
+
+Alternatively, you can create a new venv and install dependencies from requirements.txt and run `streamlit run app.py` to get started faster.
