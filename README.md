@@ -1,5 +1,5 @@
 # What this app runs on
-I have used Streamlit, which uses Flask under the hood. This is to simplify the UI Building process, as well as hosting an endpoint while using the YOLO library - two goals with one solution.  
+I have used Streamlit, which uses Flask under the hood. This is to simplify the UI Building process, as well as to host an endpoint for the YOLO model - two goals with one solution.  
 
 # Design notes
 I have kept both Streamlit and YOLO code in a single file. Logically separating the model and API serving in separate files is an easy change, which however, I am skipping in this version to move fast with the main scope.  
