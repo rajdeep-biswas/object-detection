@@ -6,6 +6,8 @@ I have kept both Streamlit and YOLO code in a single file. Logically separating 
 
 I have chosen not to dump the image and json files locally, at this moment, but that is one easy change if needed.  
 
+I haven't uploaded the model weights file to the repo, or configured docker for its inclusion to work around potential Git LFS issues when trying to replicate this project, or having to download the file yourself. The tradeoff: this results into a one-time load_model() call when the first ever detection is performed.  
+
 My goal with this project has been to showcase the core functionality. Further improvements could be made on the directory structure and logic segregation.
 
 # I/O
