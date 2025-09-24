@@ -6,6 +6,8 @@ I have kept both Streamlit and YOLO code in a single file. Logically separating 
 
 I have chosen not to dump the image and json files locally, at this moment, but that is one easy change if needed.  
 
+My goal with this project has been to showcase the core functionality. Further improvements could be made on the directory structure and logic segregation.
+
 # I/O
 Users upload one image at a time into the UI, and they get back two results on the UI:
 1. Image with bounding boxes.
