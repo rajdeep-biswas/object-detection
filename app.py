@@ -10,7 +10,7 @@ from ultralytics import YOLO
 def load_model():
     return YOLO("yolov3.pt") # pretrained weights
 
-st.title("AIMonk Object Detection 🖼️")
+st.title("Object Detection 🖼️")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
